@@ -1,13 +1,9 @@
-import java.util.HashMap;
-import java.util.Map;
 
 public class Main {
 
     public static void main(String[] args) {
 
         Trie trie = new Trie();
-//        trie.insert("apl");
-//        trie.search("apl");
 
         trie.insert("apple");
         System.out.println(trie.search("apple"));   // returns true
@@ -16,9 +12,8 @@ public class Main {
         trie.insert("app");
         System.out.println(trie.search("app"));     // returns true
 
-        System.out.println("Hello World!");
     }
-    
+
     static class Trie {
 
         /** Initialize your data structure here. */
